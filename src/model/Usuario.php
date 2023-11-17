@@ -6,7 +6,7 @@ class Usuario{
 
     private $nome;
 
-    function _construct($nome){
+    function __construct($nome){
         $this->nome = $nome;
     }
     public function getNome(){
